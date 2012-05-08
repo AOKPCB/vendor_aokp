@@ -5,6 +5,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 include vendor/aokp/configs/themes_common.mk
 
 PRODUCT_PACKAGES += \
+    AOKPCB-Wallpapers \
     MusicFX \
     MusicVisualization \
     NoiseField \
@@ -23,7 +24,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1 \
     ro.setupwizard.enterprise_mode=1 \
     windowsmgr.max_events_per_sec=240 \
-    ro.kernel.android.checkjni=0
+    ro.kernel.android.checkjni=0 \
+    persist.sys.purgeable_assets=1 \
+    pm.sleep_mode=1
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
@@ -31,8 +34,13 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf  \
     vendor/aokp/prebuilt/common/app/Microbes.apk:system/app/Microbes.apk \
-    vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
-    vendor/aokp/prebuilt/common/app/UnicornPorn.apk:system/app/UnicornPorn.apk
+    vendor/aokp/proprietary/pcb.apk:system/app/pcb.apk \
+    vendor/aokp/proprietary/Development.apk:system/app/Development.apk \
+    vendor/aokp/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
+    vendor/aokp/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
+    vendor/aokp/proprietary/PCBPorn.apk:system/app/PCBPorn.apk \
+    vendor/aokp/proprietary/AOKPCBWP.apk:system/app/AOKPCBWP.apk \
+    vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so 
     
 # init.d
 PRODUCT_COPY_FILES += \
@@ -70,6 +78,18 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/media/video/Disco.480p.mp4:system/media/video/Disco.480p.mp4 \
     vendor/aokp/prebuilt/common/media/video/Sunset.240p.mp4:system/media/video/Sunset.240p.mp4 \
     vendor/aokp/prebuilt/common/media/video/Sunset.480p.mp4:system/media/video/Sunset.480p.mp4 
+
+#CM apps - Thanks to the great team over at CyanogenMod we have these awesome apps :)
+PRODUCT_PACKAGES += \
+    FileManager \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
+
+# Term binary for support for market updates
+PRODUCT_COPY_FILES +=  \
+    vendor/aokp/proprietary/Term.apk:system/app/Term.apk \
+    vendor/aokp/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so 
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
