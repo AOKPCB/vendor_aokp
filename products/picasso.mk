@@ -1,4 +1,4 @@
-$(call inherit-product, device/acer/t20-common/t20-common.mk)
+$(call inherit-product, device/acer/picasso/picasso.mk)
 
 $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 
