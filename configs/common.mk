@@ -5,6 +5,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 include vendor/aokp/configs/themes_common.mk
 
 PRODUCT_PACKAGES += \
+    FileManager \
     MusicVisualization \
     NoiseField \
     ROMControl \
@@ -79,7 +80,6 @@ PRODUCT_COPY_FILES += \
 #CM apps - Thanks to the great team over at CyanogenMod we have these awesome apps :)
 PRODUCT_PACKAGES += \
     Development \
-    FileManager \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf
