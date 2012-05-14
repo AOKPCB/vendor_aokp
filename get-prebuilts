@@ -7,11 +7,11 @@ mkdir -p `dirname $0`/proprietary/xhdpi
 
 curl -L -o `dirname $0`/proprietary/Term.apk -O -L https://github.com/downloads/jackpal/Android-Terminal-Emulator/Term.apk
 unzip -o -d proprietary proprietary/Term.apk lib/armeabi/libjackpal-androidterm3.so
-curl -L -o `dirname $0`/proprietary/Development.apk -O -L http://aokpcb.boomm.net/nightlies/aokpcb-files/Development.apk
-curl -L -o `dirname $0`/proprietary/pcb.apk -O -L http://aokpcb.boomm.net/nightlies/aokpcb-files/pcb.apk
+curl -L -o `dirname $0`/proprietary/Development.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/Development.apk
+curl -L -o `dirname $0`/proprietary/pcb.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/pcb.apk
 curl -L -o `dirname $0`/proprietary/ApexLauncher.apk -O -L http://www.anddoes.com/apps/download.php?package=com.anddoes.launcher
 curl -L -o `dirname $0`/proprietary/NovaLauncher.apk -O -L http://teslacoilsw.com/tesladirect/download.pl?packageName=com.teslacoilsw.launcher
-curl -L -o `dirname $0`/proprietary/PCBPorn.apk -O -L http://aokpcb.boomm.net/nightlies/aokpcb-files/PCBPorn.apk
-curl -L -o `dirname $0`/proprietary/AOKPCBWP.apk -O -L http://aokpcb.boomm.net/nightlies/aokpcb-files/AOKPCBWP.apk
-curl -L -o `dirname $0`/proprietary/hdpi/bootanimation.zip -O -L http://aokpcb.boomm.net/nightlies/aokpcb-files/hdpi-bootanimation.zip
-curl -L -o `dirname $0`/proprietary/xhdpi/bootanimation.zip -O -L http://aokpcb.boomm.net/nightlies/aokpcb-files/xhdpi-bootanimation.zip
+curl -L -o `dirname $0`/proprietary/PCBPorn.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/PCBPorn.apk
+curl -L -o `dirname $0`/proprietary/AOKPCBWP.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/AOKPCBWP.apk
+curl -L -o `dirname $0`/proprietary/hdpi/bootanimation.zip -O -L http://aokpcb.boomm.net/private/aokpcb-files/hdpi-bootanimation.zip
+curl -L -o `dirname $0`/proprietary/xhdpi/bootanimation.zip -O -L http://aokpcb.boomm.net/private/aokpcb-files/xhdpi-bootanimation.zip
