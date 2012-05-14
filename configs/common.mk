@@ -16,7 +16,6 @@ PRODUCT_PACKAGES += \
     SwagPapers
 =======
     AOKPCBWP \
-    SwagPapers \
     openvpn
 >>>>>>> f9ae073b7e8b45e6a44e69a823f53f95ec17b7a8
 
