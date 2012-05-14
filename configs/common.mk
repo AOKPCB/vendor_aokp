@@ -5,16 +5,20 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 include vendor/aokp/configs/themes_common.mk
 
 PRODUCT_PACKAGES += \
-    AOKPCB-Wallpapers \
-    MusicFX \
     MusicVisualization \
     NoiseField \
     ROMControl \
     PhaseBeam \
     su \
     AppWidgetPicker \
+<<<<<<< HEAD
     openvpn \
     SwagPapers
+=======
+    AOKPCBWP \
+    SwagPapers \
+    openvpn
+>>>>>>> f9ae073b7e8b45e6a44e69a823f53f95ec17b7a8
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -36,11 +40,9 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf  \
     vendor/aokp/prebuilt/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/aokp/proprietary/pcb.apk:system/app/pcb.apk \
-    vendor/aokp/proprietary/Development.apk:system/app/Development.apk \
     vendor/aokp/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
     vendor/aokp/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
     vendor/aokp/proprietary/PCBPorn.apk:system/app/PCBPorn.apk \
-    vendor/aokp/proprietary/AOKPCBWP.apk:system/app/AOKPCBWP.apk \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so 
     
 # init.d
@@ -83,6 +85,8 @@ PRODUCT_COPY_FILES += \
 #CM apps - Thanks to the great team over at CyanogenMod we have these awesome apps :)
 PRODUCT_PACKAGES += \
     FileManager \
+    Music \
+    Development \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf
