@@ -12,7 +12,6 @@ PRODUCT_PACKAGES += \
     su \
     AppWidgetPicker \
     AOKPCBWP \
-    SwagPapers \
     openvpn
 
 PRODUCT_PROPERTY_OVERRIDES += \
