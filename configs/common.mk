@@ -11,6 +11,7 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     su \
     AppWidgetPicker \
+    AOKPCBWP \
     openvpn
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -36,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
     vendor/aokp/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
     vendor/aokp/proprietary/PCBPorn.apk:system/app/PCBPorn.apk \
-    vendor/aokp/proprietary/AOKPCBWP.apk:system/app/AOKPCBWP.apk \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so 
     
 # init.d
