@@ -11,13 +11,9 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     su \
     AppWidgetPicker \
-<<<<<<< HEAD
+    AOKPCBWP \
     openvpn \
     SwagPapers
-=======
-    AOKPCBWP \
-    openvpn
->>>>>>> f9ae073b7e8b45e6a44e69a823f53f95ec17b7a8
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
