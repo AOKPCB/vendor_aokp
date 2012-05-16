@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
     vendor/aokp/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
     vendor/aokp/proprietary/PCBPorn.apk:system/app/PCBPorn.apk \
+    vendor/aokp/proprietary/boot_audio.mp3:system/media/boot_audio.mp3 \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so 
     
 # init.d
