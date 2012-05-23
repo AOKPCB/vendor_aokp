@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
 #CM apps - Thanks to the great team over at CyanogenMod we have these awesome apps :)
 PRODUCT_PACKAGES += \
     FileManager \
-    Apollo \
     Development \
     DSPManager \
     libcyanogen-dsp \
