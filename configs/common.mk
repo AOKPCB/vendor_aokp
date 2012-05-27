@@ -82,7 +82,6 @@ PRODUCT_PACKAGES += \
     FileManager \
     Development \
     Music \
-    Trebuchet \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf
