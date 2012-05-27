@@ -6,7 +6,7 @@ mkdir -p `dirname $0`/proprietary/xhdpi
 # Get Other files for AOKPCB & Updated Apex/Nova etc.
 
 curl -L -o `dirname $0`/proprietary/Term.apk -O -L https://github.com/downloads/jackpal/Android-Terminal-Emulator/Term.apk
-unzip -o -d proprietary proprietary/Term.apk lib/armeabi/libjackpal-androidterm3.so
+unzip -o -d proprietary proprietary/Term.apk lib/armeabi/libjackpal-androidterm4.so
 curl -L -o `dirname $0`/proprietary/pcb.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/pcb.apk
 curl -L -o `dirname $0`/proprietary/NovaLauncher.apk -O -L http://teslacoilsw.com/tesladirect/download.pl?packageName=com.teslacoilsw.launcher
 curl -L -o `dirname $0`/proprietary/PCBPorn.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/PCBPorn.apk
