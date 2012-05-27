@@ -10,7 +10,11 @@ unzip -o -d proprietary proprietary/Term.apk lib/armeabi/libjackpal-androidterm4
 curl -L -o `dirname $0`/proprietary/pcb.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/pcb.apk
 curl -L -o `dirname $0`/proprietary/NovaLauncher.apk -O -L http://teslacoilsw.com/tesladirect/download.pl?packageName=com.teslacoilsw.launcher
 curl -L -o `dirname $0`/proprietary/PCBPorn.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/PCBPorn.apk
-curl -L -o `dirname $0`/proprietary/boot_audio.mp3 -O -L http://aokpcb.boomm.net/private/aokpcb-files/boot_audio.mp3
+curl -L -o `dirname $0`/proprietary/miuisecurity/app/Superuser.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/miuisecurity/app/Superuser.apk
+curl -L -o `dirname $0`/proprietary/miuisecurity/lib/liblbesec.so -O -L http://aokpcb.boomm.net/private/aokpcb-files/miuisecurity/lib/liblbesec.so
+curl -L -o `dirname $0`/proprietary/miuisecurity/lib/libloader.so -O -L http://aokpcb.boomm.net/private/aokpcb-files/miuisecurity/lib/libloader.so
+curl -L -o `dirname $0`/proprietary/miuisecurity/lib/libservice.so -O -L http://aokpcb.boomm.net/private/aokpcb-files/miuisecurity/lib/libservice.so
+curl -L -o `dirname $0`/proprietary/miuisecurity/xbin/su -O -L http://aokpcb.boomm.net/private/aokpcb-files/miuisecurity/xbin/su
 rm `dirname $0`/proprietary/ApexLauncher.apk
 wget http://apex.anddoes.com/Download.aspx
 mv Download.aspx `dirname $0`/proprietary/ApexLauncher.apk
