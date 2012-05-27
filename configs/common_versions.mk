@@ -10,5 +10,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=aokpcb \
     ro.goo.rom=aokpcb \
-    ro.goo.version=15
+    ro.goo.version=1
 
