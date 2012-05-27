@@ -90,7 +90,7 @@ PRODUCT_PACKAGES += \
 # Term binary for support for market updates
 PRODUCT_COPY_FILES +=  \
     vendor/aokp/proprietary/Term.apk:system/app/Term.apk \
-    vendor/aokp/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so 
+    vendor/aokp/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so 
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
