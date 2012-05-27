@@ -10,6 +10,7 @@ PRODUCT_PACKAGES += \
     ROMControl \
     PhaseBeam \
     AppWidgetPicker \
+    su \
     AOKPCBWP \
     openvpn \
     SwagPapers
