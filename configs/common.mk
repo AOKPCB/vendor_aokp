@@ -9,7 +9,6 @@ PRODUCT_PACKAGES += \
     NoiseField \
     ROMControl \
     PhaseBeam \
-    su \
     AppWidgetPicker \
     AOKPCBWP \
     openvpn \
@@ -30,7 +29,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/aokp/proprietary/miuisecurity/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/aokp/proprietary/miuisecurity/lib/liblbesec.so:system/lib/liblbesec.so \
+    vendor/aokp/proprietary/miuisecurity/lib/libloader.so:system/lib/libloader.so \
+    vendor/aokp/proprietary/miuisecurity/lib/libservice.so:system/lib/libservice.so \
+    vendor/aokp/proprietary/miuisecurity/xbin/su:system/xbin/su \
     vendor/aokp/prebuilt/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf  \
     vendor/aokp/prebuilt/common/app/Microbes.apk:system/app/Microbes.apk \
