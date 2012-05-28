@@ -1,7 +1,6 @@
 $(call inherit-product, device/moto/stingray/full_stingray.mk)
 
 $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
-$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/stingray
 
@@ -16,3 +15,4 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=trygon BUILD_ID=IML74K BUILD_FINGER
 
 PRODUCT_COPY_FILES +=  \
     vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
+    development/data/etc/apns-conf.xml:system/etc/apns-conf.xml
