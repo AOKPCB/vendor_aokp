@@ -11,6 +11,7 @@ mkdir -p `dirname $0`/proprietary/xhdpi
 curl -L -o `dirname $0`/proprietary/Term.apk -O -L https://github.com/downloads/jackpal/Android-Terminal-Emulator/Term.apk
 unzip -o -d proprietary proprietary/Term.apk lib/armeabi/libjackpal-androidterm4.so
 curl -L -o `dirname $0`/proprietary/pcb.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/pcb.apk
+curl -L -o `dirname $0`/proprietary/boot_audio.mp3 -O -L http://aokpcb.boomm.net/private/aokpcb-files/boot_audio.mp3
 curl -L -o `dirname $0`/proprietary/NovaLauncher.apk -O -L http://teslacoilsw.com/tesladirect/download.pl?packageName=com.teslacoilsw.launcher
 curl -L -o `dirname $0`/proprietary/PCBPorn.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/PCBPorn.apk
 #curl -L -o `dirname $0`/proprietary/miuisecurity/app/Superuser.apk -O -L http://aokpcb.boomm.net/private/aokpcb-files/miuisecurity/app/Superuser.apk
