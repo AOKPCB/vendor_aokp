@@ -12,8 +12,7 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     su \
     AOKPCBWP \
-    openvpn \
-    SwagPapers
+    openvpn
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
