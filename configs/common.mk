@@ -26,8 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     windowsmgr.max_events_per_sec=240 \
     ro.kernel.android.checkjni=0 \
-    persist.sys.purgeable_assets=1 \
-    pm.sleep_mode=1
+    persist.sys.purgeable_assets=1
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
