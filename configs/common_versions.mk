@@ -8,7 +8,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Goo updater app
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.developerid=teambroccoli \
+    ro.goo.developerid=remicks \
     ro.goo.rom=aokpcb \
     ro.goo.version=1
 
