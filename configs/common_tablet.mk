@@ -14,6 +14,15 @@ PRODUCT_PACKAGES += \
         LiveWallpapers \
         LiveWallpapersPicker \
         VisualizationWallpapers \
+<<<<<<< HEAD
         librs_jni
     
     
+=======
+        librs_jni \
+        Trebuchet
+
+# Inherit drm blobs
+-include vendor/aokp/configs/common_drm_phone.mk
+
+>>>>>>> upstream/ics
