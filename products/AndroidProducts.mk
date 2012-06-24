@@ -25,10 +25,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/picasso.mk \
     $(LOCAL_DIR)/pyramid.mk \
     $(LOCAL_DIR)/showcasemtd.mk \
-<<<<<<< HEAD
-=======
     $(LOCAL_DIR)/skyrocket.mk \
->>>>>>> upstream/ics
     $(LOCAL_DIR)/stingray.mk \
     $(LOCAL_DIR)/supersonic.mk \
     $(LOCAL_DIR)/tenderloin.mk \
