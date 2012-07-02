@@ -13,7 +13,6 @@ PRODUCT_PACKAGES += \
     su \
     AOKPCBWP \
     openvpn \
-    AOKPtips \
     GooManager
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -24,7 +23,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.com.google.locationfeatures=1 \
     ro.setupwizard.enterprise_mode=1 \
-    windowsmgr.max_events_per_sec=240 \
+    windowsmgr.max_events_per_sec=275 \
     ro.kernel.android.checkjni=0 \
     persist.sys.purgeable_assets=1
 
