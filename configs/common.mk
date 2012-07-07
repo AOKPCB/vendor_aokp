@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf  \
     vendor/aokp/prebuilt/common/app/Microbes.apk:system/app/Microbes.apk \
-    vendor/aokp/proprietary/pcb.apk:system/app/pcb.apk \
     vendor/aokp/proprietary/ApexLauncher.apk:system/app/ApexLauncher.apk \
     vendor/aokp/proprietary/NovaLauncher.apk:system/app/NovaLauncher.apk \
     vendor/aokp/proprietary/PCBPorn.apk:system/app/PCBPorn.apk \
